@@ -10,7 +10,15 @@ body {
 
 #container {
   width: 100%;
-  max-width: 588px;
+  max-width: 1000px;
   margin: 56px auto 0px;
   padding: 0 24px;
+}
+
+#container h1 {
+  padding: 20px 0px;
+}
+
+#container h2 {
+  padding: 20px 0px;
 }
