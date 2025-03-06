@@ -12,6 +12,7 @@ body {
 }
 
 #container {
+  position: relative;
   width: 100%;
   max-width: 1000px;
   margin: 30px auto 20px;
@@ -48,15 +49,48 @@ body {
   justify-content: center;
 }
 
-#conatiner2 iframe {
+#container2 {
   position: relative;
+  justify-content: center;
   width: 100%; /* Ocupa toda a largura disponível */
-  max-width: 800px; /* Define um limite máximo */
   padding-bottom: 56.25%; /* Proporção 16:9 para manter o vídeo proporcional */
   height: 0;
 }
 
+#conatiner2 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 1260px) {
+  #container {
+    /*position: relative;*/
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px 10px;
+    padding: 0 24px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+  }
+
+  #container2 {
+    position: relative;
+    width: 100%; /* Ocupa toda a largura disponível */
+    padding-bottom: 56.25%; /* Proporção 16:9 para manter o vídeo proporcional */
+    height: 0;
+  }
+
+  #container2 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
   #profile img {
     width: 70px;
     padding: 5px;
