@@ -42,8 +42,21 @@ body {
   padding: 20px;
 }
 
-@media (max-width: 1260px) {
+#container2 {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+}
 
+#conatiner2 iframe {
+  position: relative;
+  width: 100%; /* Ocupa toda a largura disponível */
+  max-width: 800px; /* Define um limite máximo */
+  padding-bottom: 56.25%; /* Proporção 16:9 para manter o vídeo proporcional */
+  height: 0;
+}
+
+@media (max-width: 1260px) {
   #profile img {
     width: 70px;
     padding: 5px;
