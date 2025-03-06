@@ -14,9 +14,9 @@ body {
 #container {
   width: 100%;
   max-width: 1000px;
-  margin: 30px auto 0px;
+  margin: 30px auto 20px;
   padding: 0 24px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
 }
 
@@ -33,7 +33,11 @@ body {
   justify-content: center;
 }
 
+#container p {
+  font-size: 20px;
+}
+
 #profile img {
   width: 200px;
-  padding: 20px
+  padding: 20px;
 }
