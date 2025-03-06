@@ -27,3 +27,13 @@ body {
 #container h2 {
   padding: 20px 0px;
 }
+
+#profile {
+  display: flex;
+  justify-content: center;
+}
+
+#profile img {
+  width: 200px;
+  padding: 20px
+}
