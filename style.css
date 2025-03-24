@@ -21,28 +21,27 @@ body {
   border-radius: 10px;
 }
 
+/*tituto inicial*/
 #container h1 {
   padding: 20px 0px;
 }
 
+/*titulos secundarios*/
 #container h2 {
   padding: 20px 0px;
 }
 
-#profile {
-  display: flex;
-  justify-content: center;
-}
-
+/*textos */
 #container p {
   font-size: 20px;
 }
 
-#profile img {
-  width: 200px;
-  padding: 20px;
+/*banner de propaganda 1*/
+#container3 {
+  border: solid red 2px;
 }
 
+/*video final do youtube*/
 #container2 {
   padding: 30px 0px;
   display: flex;
@@ -57,6 +56,7 @@ body {
   height: 0;
 }
 
+/*contador de acessos*/
 #conatiner2 iframe {
   position: absolute;
   padding: 20px 0px;
@@ -64,6 +64,17 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+/*logo marca final*/
+#profile {
+  display: flex;
+  justify-content: center;
+}
+
+#profile img {
+  width: 200px;
+  padding: 20px;
 }
 
 @media (max-width: 1260px) {
