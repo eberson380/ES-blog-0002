@@ -109,7 +109,7 @@ body {
 .slides {
   display: flex;
   width: 100%;
-  animation: slide 15s infinite ease-in-out;
+  animation: slide 20s infinite ease-in-out;
 }
 
 .slides img {
@@ -285,7 +285,7 @@ body {
   .slides {
     display: flex;
     width: 100%;
-    animation: slide 15s infinite ease-in-out;
+    animation: slide 20s infinite ease-in-out;
   }
 
   .slides img {
