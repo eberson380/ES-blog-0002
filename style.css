@@ -37,21 +37,28 @@ body {
 }
 
 /*banner do Magalu*/
-#container4 {
+#container3 {
+  border: solid black 3px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
-  border: solid 3px;
   padding: auto;
   background-color: gray;
 }
 
-#container4 p {
+#container3 p {
+  margin: 10px auto 0px;
   font-size: 30px;
+  color: white;
+  padding: 5px 35px;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgb(45, 95, 233);
 }
 
-#container4 a {
+#container3 a {
+  margin: 10px auto;
   font-size: 20px;
   text-decoration: none;
   color: black;
@@ -63,22 +70,32 @@ body {
   background-color: white;
 }
 
-/*banner de propaganda 1*/
-#container3 {
+/*banner da hotmart*/
+#container4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
-  border: solid 3px;
+  border: solid black 3px;
   padding: auto;
   background-color: gray;
 }
 
-#container3 p {
+#container4 p {
+  border: solid rgb(0, 255, 0) 4px;
   font-size: 30px;
+  margin: 10px auto 0px;
+  font-size: 30px;
+  color: black;
+  padding: 5px 28px;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
 }
 
-#container3 a {
+/*botão da pagina da hotmart*/
+#container4 a {
+  margin: 10px auto;
   font-size: 20px;
 }
 
@@ -86,7 +103,6 @@ body {
   width: 80%;
   max-width: 600px;
   overflow: hidden;
-  border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -98,7 +114,6 @@ body {
 
 .slides img {
   width: 100%;
-  border-radius: 10px;
 }
 
 @keyframes slide {
